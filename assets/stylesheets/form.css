@@ -42,17 +42,18 @@
     align-items: center;
 }
 
-.submit-btn {
+#submit {
+    width: 30%;
     background-color: hsl(200, 100%, 75%);
 }
 
-.submit-btn:hover {
+#submit:hover {
     background-color: hsl(200, 100%, 45%);
     cursor: pointer;
     color: white;
 }
 
-.submit-btn:focus {
+#submit:focus {
     background-color: hsl(200, 100%, 35%);
     color: white;
     border: 1px solid white;

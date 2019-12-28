@@ -22,9 +22,9 @@
                 <a href="#virtue-container" id="nav-link" class="nav-link">Features</a>
                 <a href="#video-container" id="nav-link" class="nav-link">How it works</a>
                 <a href="#product-container" id="nav-link" class="nav-link">Pricing</a>
-                <div class="top-link-div">
+                <!-- <div class="top-link-div">
                 <a href="#top" id="to top" class="nav-link top">Back to Top</a>
-                </div>
+                </div> -->
             </nav>
         </header>
         <div id="form-container" class="form-container">
@@ -35,12 +35,10 @@
                     </h2>
                 </label>
                 <div class="input-div">
-                    <input id="email" class="form-email" type="email" placeholder="Enter your email address" required>
+                    <input id="email" name="email" class="form-email" type="email" placeholder="Enter your email address" required>
                 </div>
                 <div class="btn-div">
-                    <button id="submit" class="btn submit-btn" type="submit">
-                        Let's get started
-                    </button>
+                    <input id="submit" type="submit" class="btn submit-btn" value="Let's get started">
                 </div>
             </form>
         </div>
@@ -97,7 +95,7 @@
         </div>
         <div id="video-container" class="video-container">
             <div class="video-wrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rI1_U-5fPWU?start=38"
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rI1_U-5fPWU?start=38"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
@@ -196,5 +194,5 @@
         </footer>
     </main>
 </body>
-
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
