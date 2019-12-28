@@ -1,0 +1,45 @@
+
+
+.main-header {
+    background-color: hsl(400, 100%, 90%);
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.img-wrapper {
+    height: 100px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+}
+
+.logo-text {
+    line-height: 32px;
+    font-size: 36px
+}
+
+.nav-bar {
+    height: 100px;
+    width: 60%;
+    width: calc((100 / 3) * 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding-bottom: 30px;
+    color: hsl(400, 100%, 10%);
+}
+
+.nav-bar a:hover {
+    color: hsl(400, 100%, 40%);
+}

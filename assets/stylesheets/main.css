@@ -1,0 +1,40 @@
+@import './header.css';
+@import './form.css';
+@import './features.css';
+@import './video.css';
+@import './pricing.css';
+@import './footer.css';
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(400, 100%, 90%);
+    color: hsl(400, 100%, 15%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Acme', sans-serif;
+}
+
+.img {
+    height: 80px;
+    width: auto;
+}
+
+
+.btn {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+}
