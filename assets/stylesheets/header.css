@@ -43,3 +43,16 @@
 .nav-bar a:hover {
     color: hsl(400, 100%, 40%);
 }
+
+.top-link-div {
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    font-size: 18px;
+}

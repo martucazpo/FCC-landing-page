@@ -5,9 +5,11 @@
 @import './pricing.css';
 @import './footer.css';
 
-body {
+
+html, body {
     margin: 0px;
     padding: 0px;
+    scroll-padding-top: 150px;
 }
 
 .main-container {
@@ -38,3 +40,4 @@ h1, h2, h3 {
     border: none;
     outline: none;
 }
+
